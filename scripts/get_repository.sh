@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 mkdir -p build
 cd build
-git clone git@github.com:memellis/my_phusion_baseimage.git
+git clone https://github.com/phusion/baseimage-docker.git
